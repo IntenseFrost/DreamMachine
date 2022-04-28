@@ -1,0 +1,221 @@
+/* CONFIGURAÇÃO DO BANNER SITES RÁPIDOS */
+
+section.bannerSitesR{
+
+      background-image: 
+    repeating-linear-gradient(to bottom, #4361ee 0, #4361ee 20px, transparent 20px, transparent 40px),
+    repeating-linear-gradient(to right, #4895ef 0, #4895ef 20px, #4361ee 20px, #4361ee 40px);
+}
+
+div.boxItensBannerSitesR{
+    width: 100%;
+
+
+}
+
+@media screen and (max-width:900px){
+
+    img#imgBannerSR{
+        width: 100%;
+    }
+
+}
+
+h1.titBannerSR{
+    display: block;
+
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+h2.subTitBannerSR{
+    display: block;
+ 
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: .5em;
+}
+
+h3.tNv3BannerSR{
+    display: block;
+
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: normal; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONFIGURAÇÃO DA CAIXA CRIAR SITES */
+section.boxCriarSR{
+    background-color: #f1faee;
+}
+
+h1.titCriaSR{
+    display: block;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 2em;
+    font-weight: bolder;
+}
+
+div.BoxTextoFundo{
+    
+    width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+   
+}
+
+h2.subTitCriaSR{
+ 
+ text-align: center;
+ margin-top: .5em;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+}
+
+div.boxOrganizaItensSR{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+div.boxItensCriarSR{
+    padding: 2em;
+    width: 25em;
+}
+
+h1.titItenCriaSR{
+    margin-top: .5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2em;
+    color: #4361ee;
+}
+
+h2.subTitItenCriarSR{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONFIGURAÇÃO SUPORTE E MANUTENÇÃO */
+
+
+h1.titSuporte{
+   text-align: center;
+   padding:1em;
+   font-size: 1.5em; 
+   font-family: verdana;
+   font-weight: bolder;
+   color: blue;
+}
+
+img.bannerSuporte{
+    position:relative;
+    margin-top: 50%;
+    top: -200px;
+
+}
+
+div.boxOrganizaSuporte{
+   
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+div.boxAlinhaImg{
+ 
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+div.boxImg{
+    padding: 1em;
+    
+}
+
+div.boxDescSuporte{
+    line-height: 2em;
+    width: 20em;
+}
+
+h2.subTitDescSuporte{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 1em;
+}

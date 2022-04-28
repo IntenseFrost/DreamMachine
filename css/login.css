@@ -1,0 +1,49 @@
+div#areaFormLogin{
+    
+    width: 80%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+form#formLogin{
+ 
+    padding: 3em;
+    margin: auto;
+    width: 25em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #03045e;
+    color: #fff;
+   
+    
+}
+
+#id_etiquetaEmail{
+    margin-bottom: 1em;
+}
+
+#id_etiquetaSenha{
+    margin-bottom: 1em;
+}
+
+input.inputLogin{
+    width: 20em;
+    padding: .5em;
+    border-radius: .5em;
+    background-color: transparent;
+    color:white;
+    border: none;
+    box-shadow: .1em .1em .5em white;
+}
+
+button.btnLogin{
+
+    margin-left: 62%;
+    margin-top: 2em;
+    width: 8em;
+    height: 3em;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    border-radius: .5em;
+
+}

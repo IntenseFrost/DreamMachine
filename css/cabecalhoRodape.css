@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body#corpo{
+    background-color: rgba(0, 180, 216, 0.685);
+}
+
+#container{
+    height:100%;
+    width:100%;
+    margin: auto;
+    
+}
+
+header#cabecalho{
+    background-color: #03045e;
+    height: 6.1em;
+    display: flex;
+    width: 100%;
+
+}
+
+
+a.itenMenu{
+    font-family: segoe UI;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1em;
+    display: block; 
+    padding: .3em;
+    border-radius:.5em;  
+}
+
+li.listaMenu{
+    float: right;
+    margin-top: 1em;
+    margin-right: 2em; 
+    line-height: 3em; 
+    display: block;
+}
+
+button.btnLink{
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+ul.ulBtn{
+    
+   padding: 1em;
+   
+   font-size: 1.4em;
+   margin: 1em;
+   background-color: #03045e;
+   
+}
+
+a.liBtn{
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+ul.blocoListaMenu{
+   list-style: none; 
+   display: block; 
+}
+
+
+
+a.itenMenu:hover{
+    background-color: #023e8a;
+    font-size: 1.4em;
+    transition: .5s;
+}
+
+nav.menu{
+  
+    margin-left: auto;
+    display: flex;
+    margin-right: 2em;
+    
+
+}
+
+button#btnMenu{
+    display: none;
+}
+
+
+
+select.btnCaixa{
+    background-color: transparent;
+    font-family: 'Segoe UI';
+    font-size: 1.3em;
+    padding: 0.3em;
+    display: block;
+    margin-top: 0.3em;
+    border: transparent;
+    font-weight: bolder;
+    color: #fff;
+    text-align: left;
+ 
+    
+    
+    
+}
+
+option.optCaixa{
+    background: #03045e;
+    border: transparent;
+    position: relative;
+    display: block;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============CONFIGURAÇÕES PARA MOBILE=========== */
+
+@media (max-width: 775px) {
+
+
+    #container{
+        height:100%;
+        width:100%;   
+    }
+
+    header#cabecalho{
+        border-radius:0em ;
+        width: 100%;
+    }
+
+    a.itenMenu{
+        font-family: segoe UI;
+        text-decoration: none;
+        color: #03045e;
+        font-weight: bolder;
+        display: block; 
+        padding: .5em;
+        border-radius: 0em; 
+        width: 99%;
+        border-bottom: solid 1px;
+        
+
+    }    
+
+    li.listaMenu{
+        
+        width: 90%;
+        
+        
+    }
+
+    div#areBtnLink{
+       
+        width: 83%;
+        margin-left: 2.8em;
+        padding: .5em;
+        
+        border: none;
+        border-bottom: solid 1px;
+    }
+
+    button.btnLink{
+        color: #03045e;
+        
+    }
+
+    ul.ulBtn{
+        width:12.3em;
+       padding-top: 1em;
+       padding-bottom: 1em;
+       font-size: 2em;
+       margin: 1em;
+       background-color: #023e8a;
+       
+    }
+
+    a.liBtn{
+        color: #fff;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+
+    nav.menu{
+        background-color: rgba(0, 180, 216, 0.87);
+        display: block;
+        position: absolute;
+        width: 100%;
+        visibility: hidden;
+        z-index: 100000;
+        transition: .5s;
+        overflow-y: hidden;
+        top: 6em;
+		
+        height: 0em;
+        
+    
+
+    }
+
+    nav.ativo{
+        display: block;
+        height: calc(100vh - 6em);
+        transition: .5s;
+        visibility: visible;
+        overflow-y: auto;
+
+    } 
+
+    a.itenMenu:hover{   
+        background-color: rgba(0, 118, 182, 0.548);
+    }
+   
+    button#btnMenu{
+        font-weight: bolder;
+        color: white;
+       display: flex;
+       padding: .5rem 1rem;
+       font-size: 1rem;
+       border: none;
+       background: transparent;
+       cursor:pointer;
+       margin-left: auto;
+       text-align: center;
+    }
+
+    #hamburguer{
+
+		color: white;
+		width: 4em;
+		border-top: .4em solid;
+        margin-top: 1em;
+        margin-right: .4em;
+       
+	}
+    
+    span#hamburguer::after, span#hamburguer::before{
+        content: '';
+		display: block;
+		width: 4em;
+		height: .4em;
+        font-weight: bolder;
+		background:#fff;
+		margin-top: .7em;
+		transition: .4s;
+		position: relative;
+        
+    }
+    
+
+    #container{
+        height:100%;
+        width:100%;
+        margin: auto;
+        
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONFIGURAÇÕES DO RODAPÉ */
+
+
+footer#rodape{
+    background-color: #03045e;
+}
+
+p.descRodape{
+    color: white;
+   
+}
+
+.redeS{
+    width: 100px;
+    padding: 1em;
+}
+
+div#boxRSociais{
+    display: flex;
+    padding: 1em;
+  
+    justify-content: center;
+    
+}
+
+div.boxItensRodape{
+
+    padding: 2em;
+    width: 29em;
+
+   
+}
+
+ul.ulRodape{
+    list-style: none;
+}
+
+li.liRodape{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+a.linkRodape{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1em;
+}
+
+nav#navRodape{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1.titRodape{
+    color: #0096c7;
+    font-family: Arial, Helvetica, sans-serifr;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: .2em;
+
+}
+
+p.diretos{
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    margin-bottom:0;
+}
